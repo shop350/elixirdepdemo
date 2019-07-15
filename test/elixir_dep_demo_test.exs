@@ -2,7 +2,7 @@ defmodule ElixirDepDemoTest do
   use ExUnit.Case
   doctest ElixirDepDemo
 
-  test "greets milo" do
-    assert ElixirDepDemo.hello("emilio") == "Hello Emilio"
+  test "greets clint" do
+    assert ElixirDepDemo.hello("clint") == "Hello Clint"
   end
 end
