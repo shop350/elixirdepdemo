@@ -4,6 +4,6 @@ defmodule ElixirDepDemo do
   """
 
   def hello(name) when is_binary(name) do
-    "Hello " <> String.capitalize(name)
+    "Hello " <> String.capitalize(name) <> ", good day!"
   end
 end
